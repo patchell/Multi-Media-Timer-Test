@@ -174,6 +174,9 @@ public:
 
 void CMyMMtimer::DoCallback(UINT id)
 {
+	//---------------------
+	// Simple Callback
+	//---------------------
 	if (--Count == 0)
 		m_Wait.Post();
 }
